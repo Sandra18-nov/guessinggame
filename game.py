@@ -1,13 +1,22 @@
 #1 get user name 
-#from random import randint
-number=randint(10, 50)
+from random import randint
+random_number=randint(10, 50)
 username=input("enter name: ")
-print("hello there" + username + "!")
+print("hello there " + username + "!")
 
 #generate a number
 counter=0
-while counter=5;
- usernumber=eval(input("enter number:"))
+while counter < 5:
+    usernumber=eval(input("enter number:"))
+    counter +=1
+    if usernumber<random_number: 
+        print("your guess is too low")
+    elif usernumber>random_number:  
+        print("your guess is too high")
+    elif usernumber==random_number:
+        print("you win!")
+        break
+
 
 
 
